@@ -24,10 +24,19 @@
 //}
 
 //code 1.36
+//main(List<String> arguments) {
+//  int firstNum = 40;
+//  int secondNum = 41;
+//  if (firstNum != secondNum){
+//    print("$firstNum is not equal to the $secondNum");
+//  } else print("$firstNum is equal to the $secondNum");
+//}
+
+//code 1.37
 main(List<String> arguments) {
   int firstNum = 40;
-  int secondNum = 41;
-  if (firstNum != secondNum){
-    print("$firstNum is not equal to the $secondNum");
-  } else print("$firstNum is equal to the $secondNum");
+  int secondNum = 40;
+  if (firstNum == secondNum){
+    print("$firstNum is equal to the $secondNum");
+  } else print("$firstNum is not equal to the $secondNum");
 }
